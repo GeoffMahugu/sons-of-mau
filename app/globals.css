@@ -31,3 +31,10 @@ body {
     text-wrap: balance;
   }
 }
+
+#landing-section {
+  background-image: url("../public/img/short-kenya-flag.webp");
+  background-position: center;
+  background-size: cover;
+  z-index:-2
+}
