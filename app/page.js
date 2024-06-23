@@ -57,7 +57,7 @@ export default function Home() {
         id='landing-section'
         className='flex flex-col items-center h-screen p-10 '
       >
-        <h1 className='text-8xl'>The Revolution starts here !</h1>
+        <h1 className='text-8xl text-black'>The Revolution starts here !</h1>
       </div>
 
       <div className='flex flex-col min-h-screen py-80 gap-5'>
