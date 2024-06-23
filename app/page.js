@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 
+import { HomeBentoGrid } from "../components/HomeBentoGrid";
 import MpsData from "/public/data/mps.json";
 
 export default function Home() {
@@ -48,6 +49,8 @@ export default function Home() {
   return (
     <main className='flex relative  min-h-screen h-screen flex-col items-center justify-between p-24 bg-white'>
       <h1>MPS who Voted Yes</h1>
+      {/* <div className='flex flex-row gap-5 flex-wrap'></div> */}
+      <HomeBentoGrid />
       <div className='flex flex-row gap-5 flex-wrap'>
         {MpsData?.length &&
           MpsData.map((member, index) => (
