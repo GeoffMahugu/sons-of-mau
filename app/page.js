@@ -48,6 +48,22 @@ export default function Home() {
   return (
     <main className='flex relative  min-h-screen h-screen flex-col items-center justify-between p-24 bg-white'>
       <h1>MPS who Voted Yes</h1>
+      <div className='flex flex-row gap-5 flex-wrap'>
+        {MpsData?.length &&
+          MpsData.map((member, index) => (
+            <>
+              <div key={index} className='flex flex-col items-center'>
+                <Image
+                  src={member.imageURL}
+                  alt={member.memberOfParliament}
+                  width={100}
+                  height={100}
+                />
+                <p>{member.memberOfParliament}</p>
+              </div>
+            </>
+          ))}
+      </div>
     </main>
   );
 }
