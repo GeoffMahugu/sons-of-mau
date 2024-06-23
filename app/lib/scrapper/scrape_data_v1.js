@@ -14,9 +14,10 @@ const jsonFilePath = path.join(__dirname, "../../../public/data/mps.json");
     const browser = await puppeteer.launch({ headless: false });
 
     for (const mp of jsonData) {
-      const url = mp.ProfileURL;
+      const url = mp.profileURL;
 
-      const mpName = mp.MemberOfParliament.trim()
+      const mpName = mp.memberOfParliament
+        .trim()
         .replace(/^(hon\.)\s*/gi, "")
         .replace(/^(hon\.|dr\.|eng\.|\(.*?\))\s*/gi, "")
         .toLowerCase()
@@ -32,12 +33,12 @@ const jsonFilePath = path.join(__dirname, "../../../public/data/mps.json");
       // // Check if the image already exists
       // if (fs.existsSync(savePath)) {
       //   console.log(
-      //     `Image already exists at ${savePath}, skipping scraping for ${mp.MemberOfParliament}`
+      //     `Image already exists at ${savePath}, skipping scraping for ${mp.memberOfParliament}`
       //   );
       //   continue; // Skip scraping and move to the next MP
       // }
 
-      console.log(`Scraping data for ${mp.MemberOfParliament} from ${url}`);
+      console.log(`Scraping data for ${mp.memberOfParliament} from ${url}`);
 
       const page = await browser.newPage();
 
@@ -56,20 +57,27 @@ const jsonFilePath = path.join(__dirname, "../../../public/data/mps.json");
       const count = 1;
       // Extract data from the page
       const data = await page.evaluate(() => {
-        
         // Function to sanitize text content
         const sanitizeText = (text) => {
           return text.replace(/\s+/g, " ").trim();
         };
 
         const imgElement = document.querySelector(".profile-pic img");
-        // const nameElement = document.querySelector(".object-titles h1");
+        const nameElement = document.querySelector(".object-titles h1");
         const constituencyElement = document.querySelector(
           ".constituency-party h3"
         );
         const partiesElement = document.querySelector(
           ".constituency-party h3 + ul li"
         );
+
+        const mpName = nameElement.textContent
+          .trim()
+          .replace(/^(hon\.)\s*/gi, "")
+          .replace(/^(hon\.|dr\.|eng\.|\(.*?\))\s*/gi, "")
+          .toLowerCase()
+          .replace(/,/g, "") // Remove commas
+          .replace(/\s+/g, "_");
 
         const constituency = sanitizeText(constituencyElement.textContent);
 
@@ -126,65 +134,64 @@ const jsonFilePath = path.join(__dirname, "../../../public/data/mps.json");
         };
       });
 
-      // if (data.imgUrl && data.mpName) {
-      //   // Define the path to save the image
-      //   const savePath = path.join(
-      //     __dirname,
-      //     "../../../.ignore/images",
-      //     `${data.mpName}.jpg`
-      //   );
+      if (data.imgUrl && data.mpName) {
+        // Define the path to save the image
+        const savePath = path.join(
+          __dirname,
+          "../../../.ignore/images",
+          `${data.mpName}.jpg`
+        );
 
-      //   // Check if the image already exists
-      //   if (!fs.existsSync(savePath)) {
-      //     // Convert relative URL to absolute URL
-      //     const absoluteImgUrl = new URL(data.imgUrl, url).href;
+        // Check if the image already exists
+        if (!fs.existsSync(savePath)) {
+          // Convert relative URL to absolute URL
+          const absoluteImgUrl = new URL(data.imgUrl, url).href;
 
-      //     // Download the image
-      //     const viewSource = await page.goto(absoluteImgUrl);
-      //     const buffer = await viewSource.buffer();
+          // Download the image
+          const viewSource = await page.goto(absoluteImgUrl);
+          const buffer = await viewSource.buffer();
 
-      //     // Ensure the directory exists, create it if not
-      //     fs.mkdirSync(path.dirname(savePath), { recursive: true });
+          // Ensure the directory exists, create it if not
+          fs.mkdirSync(path.dirname(savePath), { recursive: true });
 
-      //     // Save the image to the specified path
-      //     fs.writeFile(savePath, buffer, (err) => {
-      //       if (err) throw err;
-      //       console.log(`Image saved at ${savePath}`);
-      //     });
-      //   } else {
-      //     console.log(`Image already exists at ${savePath}`);
-      //   }
-      // } else {
-      //   console.log("Image or MP name not found on the page.");
-      // }
+          // Save the image to the specified path
+          fs.writeFile(savePath, buffer, (err) => {
+            if (err) throw err;
+            console.log(`Image saved at ${savePath}`);
+          });
+        } else {
+          console.log(`Image already exists at ${savePath}`);
+        }
+      } else {
+        console.log("Image or MP name not found on the page.");
+      }
 
-      // // Define the path to save the JSON data
-      // const jsonDataPath = path.join(
-      //   __dirname,
-      //   "../../../.ignore/data",
-      //   "mps.json"
-      // );
+      // Define the path to save the JSON data
+      const jsonDataPath = path.join(
+        __dirname,
+        "../../../.ignore/data",
+        "mps.json"
+      );
 
-      // // Ensure the directory exists, create it if not
-      // fs.mkdirSync(path.dirname(jsonDataPath), { recursive: true });
+      // Ensure the directory exists, create it if not
+      fs.mkdirSync(path.dirname(jsonDataPath), { recursive: true });
 
-      // // Read the existing JSON data if it exists
-      // let existingData = [];
-      // if (fs.existsSync(jsonDataPath)) {
-      //   existingData = JSON.parse(fs.readFileSync(jsonDataPath));
-      // }
+      // Read the existing JSON data if it exists
+      let existingData = [];
+      if (fs.existsSync(jsonDataPath)) {
+        existingData = JSON.parse(fs.readFileSync(jsonDataPath));
+      }
 
-      // // Add new data to existing data
-      // existingData.push(data);
+      // Add new data to existing data
+      existingData.push(data);
 
-      // // Save the combined data to the JSON file
-      // fs.writeFileSync(jsonDataPath, JSON.stringify(existingData, null, 2));
-      // console.log(`Data saved at ${jsonDataPath}`);
+      // Save the combined data to the JSON file
+      fs.writeFileSync(jsonDataPath, JSON.stringify(existingData, null, 2));
+      console.log(`Data saved at ${jsonDataPath}`);
 
-      // await page.close();
+      await page.close();
     }
-
-    // await browser.close();
+    await browser.close();
   } catch (err) {
     console.error(err);
   }

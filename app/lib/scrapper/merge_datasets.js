@@ -5,7 +5,8 @@ const mpsData1Path = path.join(__dirname, "../../../public/data/mps.json");
 const mpsData2Path = path.join(__dirname, "../../../.ignore/data/mps.json");
 const outputPath = path.join(
   __dirname,
-  "../../../.ignore/data/merged_mps.json"
+  // "../../../.ignore/data/merged_mps.json"
+  "../../../public/data/full_mps.json"
 );
 
 (async () => {
@@ -14,49 +15,31 @@ const outputPath = path.join(
     const mpsData1 = JSON.parse(fs.readFileSync(mpsData1Path, "utf8"));
     const mpsData2 = JSON.parse(fs.readFileSync(mpsData2Path, "utf8"));
 
-    console.log("Checking lengths....");
-    console.log(mpsData1.length); //310
-    console.log(mpsData2.length); //474
-
-    const mergedData = mpsData1.map((mp1) => {
-      // Find the matching MP in mpsData2 based on ProfileURL
-      //   const mp2 = mpsData2.find(
-      //     (mp) =>
-      //       mp.mpName.replace(/_/g, " ") ===
-      //       mp1.MemberOfParliament.toLowerCase()
-      //         .replace(/hon\./gi, "")
-      //         .trim()
-      //         .replace(/,/g, "")
-      //   );
-
-      const cleanName = mp1.MemberOfParliament.trim()
+    const mergedData = mpsData1.map((mp1, index) => {
+      const cleanName = mp1.memberOfParliament
+        .trim()
         .replace(/^(hon\.)\s*/gi, "")
-        .replace(/^(hon\.|dr\.|eng\.|\(.*?\))\s*/gi, "")
-        .toLowerCase()
-        .replace(/,/g, "") // Remove commas
-        .replace(/\s+/g, "_");
+        .replace(/,/g, ""); // Remove commas
 
-      //   console.log("FIND MP ---------------//");
-      //   console.log(cleanName, mp1.MemberOfParliament);
-      console.log(cleanName);
+      // console.log("Clean Name MP ---------------//");
+      const mp2 = mpsData2[index];
+      const data = {
+        id: mp2.mpName,
+        name: cleanName,
+        parliamentUrl: mp1.profileURL,
+        status: mp1.status,
+        party: mp1.party,
+        constituency: mp1.constituency,
+        imgUrl: mp2.imgUrl,
+        education: mp2.education,
+        workHistory: mp2.workHistory,
+      };
 
-      //   if (mp2) {
-      //     // Merge the data
-      //     return {
-      //       ...mp1,
-      //       imgUrl: mp2.imgUrl,
-      //       mpName: mp2.mpName,
-      //       education: mp2.education,
-      //       workHistory: mp2.workHistory,
-      //     };
-      //   } else {
-      //     // If no matching MP is found, return the original data
-      //     return mp1;
-      //   }
+      return data;
     });
 
     // Write the merged data to a new JSON file
-    // fs.writeFileSync(outputPath, JSON.stringify(mergedData, null, 2));
+    fs.writeFileSync(outputPath, JSON.stringify(mergedData, null, 2));
     console.log(`Merged data saved at ${outputPath}`);
   } catch (err) {
     console.error(err);

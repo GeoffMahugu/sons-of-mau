@@ -28,7 +28,7 @@ export default function Home() {
     const duplicates = [];
 
     members.forEach((member) => {
-      const mp = member.MemberOfParliament;
+      const mp = member.memberOfParliament;
       if (mpCount[mp]) {
         mpCount[mp]++;
       } else {
@@ -38,7 +38,7 @@ export default function Home() {
 
     for (const mp in mpCount) {
       if (mpCount[mp] > 1) {
-        duplicates.push({ MemberOfParliament: mp, count: mpCount[mp] });
+        duplicates.push({ memberOfParliament: mp, count: mpCount[mp] });
       }
     }
 
