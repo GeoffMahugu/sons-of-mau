@@ -4,7 +4,6 @@ const path = require("path");
 
 const jsonFilePath = path.join(__dirname, "../../../public/data/mps.json");
 
-
 (async () => {
   try {
     // Read the JSON data
@@ -28,13 +27,13 @@ const jsonFilePath = path.join(__dirname, "../../../public/data/mps.json");
         `${mpName}.jpg`
       );
 
-      // // Check if the image already exists
-      // if (fs.existsSync(savePath)) {
-      //   console.log(
-      //     `Image already exists at ${savePath}, skipping scraping for ${mp.MemberOfParliament}`
-      //   );
-      //   continue; // Skip scraping and move to the next MP
-      // }
+      // Check if the image already exists
+      if (fs.existsSync(savePath)) {
+        console.log(
+          `Image already exists at ${savePath}, skipping scraping for ${mp.MemberOfParliament}`
+        );
+        continue; // Skip scraping and move to the next MP
+      }
 
       console.log(`Scraping data for ${mp.MemberOfParliament} from ${url}`);
 
