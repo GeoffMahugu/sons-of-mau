@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["www.parliament.go.ke"],
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "www.parliament.go.ke", // Replace with your actual domain
+      },
+    ],
   },
 };
 
