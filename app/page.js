@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 import { HomeBentoGrid } from "../components/HomeBentoGrid";
+import { ThreeDCard } from "../components/ThreeDCard";
 import MpsData from "/public/data/mps.json";
 
 export default function Home() {
@@ -52,6 +53,7 @@ export default function Home() {
       {/* <div className='flex flex-row gap-5 flex-wrap'></div> */}
       <HomeBentoGrid />
       <div className='flex flex-row gap-5 flex-wrap'>
+        <ThreeDCard />
         {MpsData?.length &&
           MpsData.map((member, index) => (
             <>
