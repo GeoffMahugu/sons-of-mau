@@ -8,7 +8,7 @@
     "constituency": "EMBAKASI CENTRAL",
     "party": "UDA",
     "status": "Elected",
-    "vote": null,
+    "vote": "ABSENT",
     "phone_number": null
   },
   {
@@ -44,7 +44,7 @@
     "constituency": "",
     "party": "UDA",
     "status": "Nominated",
-    "vote": null,
+    "vote": "ABSENT",
     "phone_number": null
   },
   {
@@ -56,7 +56,7 @@
     "constituency": "ENDEBESS",
     "party": "UDA",
     "status": "Elected",
-    "vote": null,
+    "vote": "YES",
     "phone_number": null
   },
   {
@@ -92,7 +92,7 @@
     "constituency": "VOI",
     "party": "WDM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -116,7 +116,7 @@
     "constituency": "LAFEY",
     "party": "JP",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -128,7 +128,7 @@
     "constituency": "MANDERA EAST",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -140,7 +140,7 @@
     "constituency": "TANA RIVER",
     "party": "KANU",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -176,7 +176,7 @@
     "constituency": "RONGO",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -200,7 +200,7 @@
     "constituency": "TIGANIA EAST",
     "party": "NOPEU",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -212,7 +212,7 @@
     "constituency": "VIHIGA",
     "party": "ANC",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -248,7 +248,7 @@
     "constituency": "KISUMU EAST",
     "party": "IND.",
     "status": "Elected",
-    "vote": "ABSENT",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -284,7 +284,7 @@
     "constituency": "",
     "party": "UDA",
     "status": "Nominated",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -296,7 +296,7 @@
     "constituency": "RARIEDA",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -308,7 +308,7 @@
     "constituency": "NAKURU TOWN WEST",
     "party": "JP",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -344,7 +344,7 @@
     "constituency": "EMBAKASI EAST",
     "party": "ODM",
     "status": "Elected",
-    "vote": null,
+    "vote": "NO",
     "phone_number": null
   },
   {
@@ -380,7 +380,7 @@
     "constituency": "BOMACHOGE BORABU",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -392,7 +392,7 @@
     "constituency": "TARBAJ",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -404,7 +404,7 @@
     "constituency": "MOIBEN",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -428,7 +428,7 @@
     "constituency": "KILIFI NORTH",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -440,7 +440,7 @@
     "constituency": "KISAUNI",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -476,7 +476,7 @@
     "constituency": "KIMININI",
     "party": "DAP-K",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -488,7 +488,7 @@
     "constituency": "ISIOLO",
     "party": "JP",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -512,7 +512,7 @@
     "constituency": "MARAKWET EAST",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -536,7 +536,7 @@
     "constituency": "KISUMU WEST",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -548,7 +548,7 @@
     "constituency": "TAVETA",
     "party": "WDM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -560,7 +560,7 @@
     "constituency": "RONGAI",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -572,7 +572,7 @@
     "constituency": "LIMURU",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -596,7 +596,7 @@
     "constituency": "",
     "party": "JP",
     "status": "Nominated",
-    "vote": "ABSENT",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -608,7 +608,7 @@
     "constituency": "NAKURU",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -632,7 +632,7 @@
     "constituency": "BOMET",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -644,7 +644,7 @@
     "constituency": "NJORO",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -656,7 +656,7 @@
     "constituency": "KIPKELION EAST",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -680,7 +680,7 @@
     "constituency": "LUNGA LUNGA",
     "party": "UDM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -764,7 +764,7 @@
     "constituency": "DAGORETTI NORTH",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -800,7 +800,7 @@
     "constituency": "WAJIR WEST",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -824,7 +824,7 @@
     "constituency": "SUBUKIA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -836,7 +836,7 @@
     "constituency": "KAJIADO EAST",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -848,7 +848,7 @@
     "constituency": "MANDERA SOUTH",
     "party": "UDM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -908,7 +908,7 @@
     "constituency": "",
     "party": "UDA",
     "status": "Nominated",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -920,7 +920,7 @@
     "constituency": "MALAVA",
     "party": "ANC",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -944,7 +944,7 @@
     "constituency": "MOYALE",
     "party": "UPIA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -956,7 +956,7 @@
     "constituency": "WAJIR",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -968,7 +968,7 @@
     "constituency": "NYARIBARI CHACHE",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1016,7 +1016,7 @@
     "constituency": "LAIKIPIA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1028,7 +1028,7 @@
     "constituency": "GATUNDU SOUTH",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1052,7 +1052,7 @@
     "constituency": "LARI",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1112,7 +1112,7 @@
     "constituency": "KALOLENI",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1136,7 +1136,7 @@
     "constituency": "SIGOWET/SOIN",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1148,7 +1148,7 @@
     "constituency": "KERICHO",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1184,7 +1184,7 @@
     "constituency": "LANGATA",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1208,7 +1208,7 @@
     "constituency": "OL KALOU",
     "party": "JP",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1220,7 +1220,7 @@
     "constituency": "KITUTU CHACHE SOUTH",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1244,7 +1244,7 @@
     "constituency": "KANGEMA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1292,7 +1292,7 @@
     "constituency": "RUIRU",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1304,7 +1304,7 @@
     "constituency": "BARINGO NORTH",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1328,7 +1328,7 @@
     "constituency": "MAGARINI",
     "party": "ODM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1352,7 +1352,7 @@
     "constituency": "LAIKIPIA NORTH",
     "party": "JP",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1364,7 +1364,7 @@
     "constituency": "KEIYO NORTH",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1388,7 +1388,7 @@
     "constituency": "SIRISIA",
     "party": "JP",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1400,7 +1400,7 @@
     "constituency": "BURA",
     "party": "UPIA",
     "status": "Elected",
-    "vote": null,
+    "vote": "ABSENT",
     "phone_number": null
   },
   {
@@ -1424,7 +1424,7 @@
     "constituency": "GATUNDU NORTH",
     "party": "IND",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1436,7 +1436,7 @@
     "constituency": "LAISAMIS",
     "party": "UDM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1448,7 +1448,7 @@
     "constituency": "EMGWEN",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1460,7 +1460,7 @@
     "constituency": "NAROK EAST",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1472,7 +1472,7 @@
     "constituency": "SAMBURU",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1484,7 +1484,7 @@
     "constituency": "SAMBURU EAST",
     "party": "KANU",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1508,7 +1508,7 @@
     "constituency": "SAMBURU NORTH",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1520,7 +1520,7 @@
     "constituency": "SIGOR",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1532,7 +1532,7 @@
     "constituency": "ISIOLO NORTH",
     "party": "JP",
     "status": "Elected",
-    "vote": "ABSENT",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1556,7 +1556,7 @@
     "constituency": "SABOTI",
     "party": "ODM",
     "status": "",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1580,7 +1580,7 @@
     "constituency": "MVITA",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1592,7 +1592,7 @@
     "constituency": "KIRINYAGA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "ABSENT",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1604,7 +1604,7 @@
     "constituency": "MURANG’A",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1616,7 +1616,7 @@
     "constituency": "MWEA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1652,7 +1652,7 @@
     "constituency": "KANDUYI",
     "party": "FORD-K",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1664,7 +1664,7 @@
     "constituency": "NYARIBARI MASABA",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1688,7 +1688,7 @@
     "constituency": "SUNA WEST",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1700,7 +1700,7 @@
     "constituency": "KWALE",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1712,7 +1712,7 @@
     "constituency": "NYERI TOWN",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1736,7 +1736,7 @@
     "constituency": "",
     "party": "ODM",
     "status": "Nominated",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1748,7 +1748,7 @@
     "constituency": "KITUI EAST",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1820,7 +1820,7 @@
     "constituency": "MALINDI",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1844,7 +1844,7 @@
     "constituency": "LAGDERA",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1856,7 +1856,7 @@
     "constituency": "WAJIR EAST",
     "party": "JP",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1868,7 +1868,7 @@
     "constituency": "NYALI",
     "party": "UDA",
     "status": "Elected",
-    "vote": "ABSENT",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1880,7 +1880,7 @@
     "constituency": "",
     "party": "ODM",
     "status": "Nominated",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1940,7 +1940,7 @@
     "constituency": "OL JOROK",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1952,7 +1952,7 @@
     "constituency": "LIKUYANI",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1964,7 +1964,7 @@
     "constituency": "NANDI",
     "party": "UDA",
     "status": "",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1976,7 +1976,7 @@
     "constituency": "KAKAMEGA",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -1988,7 +1988,7 @@
     "constituency": "KIPIPIRI",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2000,7 +2000,7 @@
     "constituency": "LURAMBI",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2012,7 +2012,7 @@
     "constituency": "MANYATTA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2048,7 +2048,7 @@
     "constituency": "THARAKA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2060,7 +2060,7 @@
     "constituency": "MWALA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2096,7 +2096,7 @@
     "constituency": "KIMILILI",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2108,7 +2108,7 @@
     "constituency": "TIGANIA WEST",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2120,7 +2120,7 @@
     "constituency": "KIBWEZI WEST",
     "party": "MCCP",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2132,7 +2132,7 @@
     "constituency": "ROYSAMBU",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2192,7 +2192,7 @@
     "constituency": "TETU",
     "party": "UDA",
     "status": "Elected",
-    "vote": "ABSENT",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2204,7 +2204,7 @@
     "constituency": "",
     "party": "",
     "status": "",
-    "vote": "ABSENT",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2228,7 +2228,7 @@
     "constituency": "EMBAKASI WEST",
     "party": "JP",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2252,7 +2252,7 @@
     "constituency": "LUGARI",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2264,7 +2264,7 @@
     "constituency": "MATUNGU",
     "party": "ODM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2276,7 +2276,7 @@
     "constituency": "MUMIAS WEST",
     "party": "ODM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2300,7 +2300,7 @@
     "constituency": "TURKANA WEST",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2324,7 +2324,7 @@
     "constituency": "THARAKA NITHI",
     "party": "TSP",
     "status": "Elected",
-    "vote": "ABSENT",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2336,7 +2336,7 @@
     "constituency": "THIKA TOWN",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2360,7 +2360,7 @@
     "constituency": "TURKANA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "ABSENT",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2384,7 +2384,7 @@
     "constituency": "KAJIADO NORTH",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2432,7 +2432,7 @@
     "constituency": "MARAGWA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": "NO",
     "phone_number": null
   },
   {
@@ -2456,7 +2456,7 @@
     "constituency": "CHUKA IGAMBANG'OMBE",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2480,7 +2480,7 @@
     "constituency": "KITUI SOUTH",
     "party": "JP",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2492,7 +2492,7 @@
     "constituency": "URIRI",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2504,7 +2504,7 @@
     "constituency": "NORTH MUGIRANGO",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2540,7 +2540,7 @@
     "constituency": "KIHARU",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2576,7 +2576,7 @@
     "constituency": "KABONDO KASIPUL",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2600,7 +2600,7 @@
     "constituency": "LAMU EAST",
     "party": "JP",
     "status": "",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2612,7 +2612,7 @@
     "constituency": "UGENYA",
     "party": "MDG",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2624,7 +2624,7 @@
     "constituency": "MATAYOS",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2636,7 +2636,7 @@
     "constituency": "NYATIKE",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2648,7 +2648,7 @@
     "constituency": "GEM",
     "party": "ODM",
     "status": "",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2660,7 +2660,7 @@
     "constituency": "SUBA NORTH",
     "party": "",
     "status": "ODM",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2708,7 +2708,7 @@
     "constituency": "MATHARE",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2720,7 +2720,7 @@
     "constituency": "BUSIA",
     "party": "ODM",
     "status": "",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2744,7 +2744,7 @@
     "constituency": "EMUHAYA",
     "party": "",
     "status": "Elected",
-    "vote": null,
+    "vote": "YES",
     "phone_number": null
   },
   {
@@ -2756,7 +2756,7 @@
     "constituency": "SUBA SOUTH",
     "party": "ODM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2792,7 +2792,7 @@
     "constituency": "SOUTH MUGIRANGO",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2804,7 +2804,7 @@
     "constituency": "KIBRA",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2816,7 +2816,7 @@
     "constituency": "KISUMU CENTRAL",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2852,7 +2852,7 @@
     "constituency": "TESO SOUTH",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2864,7 +2864,7 @@
     "constituency": "FUNYULA",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2876,7 +2876,7 @@
     "constituency": "AWENDO",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2888,7 +2888,7 @@
     "constituency": "NDHIWA",
     "party": "ODM",
     "status": "",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2900,7 +2900,7 @@
     "constituency": "NYAKACH",
     "party": "ODM",
     "status": "",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2912,7 +2912,7 @@
     "constituency": "MUHORONI",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2924,7 +2924,7 @@
     "constituency": "LUANDA",
     "party": "DAP-K",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -2996,7 +2996,7 @@
     "constituency": "KINANGO",
     "party": "PAA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3008,7 +3008,7 @@
     "constituency": "Saku",
     "party": "",
     "status": "",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3032,7 +3032,7 @@
     "constituency": "KURIA WEST",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3056,7 +3056,7 @@
     "constituency": "MUMIAS EAST",
     "party": "DAP-K",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3092,7 +3092,7 @@
     "constituency": "KAJIADO",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3128,7 +3128,7 @@
     "constituency": "MANDERA",
     "party": "UDM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3140,7 +3140,7 @@
     "constituency": "CHANGAMWE",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3152,7 +3152,7 @@
     "constituency": "IKOLOMANI",
     "party": "ODM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3164,7 +3164,7 @@
     "constituency": "BALAMBALA",
     "party": "JP",
     "status": "Elected",
-    "vote": "ABSENT",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3188,7 +3188,7 @@
     "constituency": "ELDAMA RAVINE",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3200,7 +3200,7 @@
     "constituency": "WEBUYE WEST",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3212,7 +3212,7 @@
     "constituency": "TURBO",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3224,7 +3224,7 @@
     "constituency": "TRANS NZOIA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3248,7 +3248,7 @@
     "constituency": "KAPSERET",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3332,7 +3332,7 @@
     "constituency": "NAROK WEST",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3344,7 +3344,7 @@
     "constituency": "NAROK",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3356,7 +3356,7 @@
     "constituency": "KURESOI SOUTH",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3368,7 +3368,7 @@
     "constituency": "MARAKWET WEST",
     "party": "IND",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3380,7 +3380,7 @@
     "constituency": "GANZE",
     "party": "PAA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3392,7 +3392,7 @@
     "constituency": "NYERI",
     "party": "UDA",
     "status": "",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3416,7 +3416,7 @@
     "constituency": "OTHAYA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3428,7 +3428,7 @@
     "constituency": "KIAMBU",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3440,7 +3440,7 @@
     "constituency": "KABETE",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3452,7 +3452,7 @@
     "constituency": "BUNGOMA",
     "party": "FORD - K",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3476,7 +3476,7 @@
     "constituency": "GITHUNGURI",
     "party": "UDA",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3488,7 +3488,7 @@
     "constituency": "UGUNJA",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3500,7 +3500,7 @@
     "constituency": "KHWISERO",
     "party": "ODM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3512,7 +3512,7 @@
     "constituency": "NAVAKHOLO",
     "party": "ODM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3536,7 +3536,7 @@
     "constituency": "KIAMBAA",
     "party": "UDA",
     "status": "Elected",
-    "vote": null,
+    "vote": "YES",
     "phone_number": null
   },
   {
@@ -3572,7 +3572,7 @@
     "constituency": "WEBUYE EAST",
     "party": "FORD-K",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3584,7 +3584,7 @@
     "constituency": "MARSABIT",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3620,7 +3620,7 @@
     "constituency": "WESTLANDS",
     "party": "ODM",
     "status": "Elected",
-    "vote": "NO",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3632,7 +3632,7 @@
     "constituency": "KONOIN",
     "party": "UDA",
     "status": "",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3656,7 +3656,7 @@
     "constituency": "MANDERA WEST",
     "party": "UDM",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3668,7 +3668,7 @@
     "constituency": "MOLO",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3680,7 +3680,7 @@
     "constituency": "IGEMBE CENTRAL",
     "party": "JP",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {
@@ -3692,7 +3692,7 @@
     "constituency": "MAARA",
     "party": "UDA",
     "status": "Elected",
-    "vote": "YES",
+    "vote": null,
     "phone_number": null
   },
   {

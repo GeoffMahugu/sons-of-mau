@@ -32,7 +32,7 @@ export default function Home() {
     const duplicates = [];
 
     members.forEach((member) => {
-      const mp = member.memberOfParliament;
+      const mp = member.name;
       if (mpCount[mp]) {
         mpCount[mp]++;
       } else {
@@ -42,7 +42,7 @@ export default function Home() {
 
     for (const mp in mpCount) {
       if (mpCount[mp] > 1) {
-        duplicates.push({ memberOfParliament: mp, count: mpCount[mp] });
+        duplicates.push({ name: mp, count: mpCount[mp] });
       }
     }
 
@@ -80,12 +80,12 @@ export default function Home() {
                 <div key={index} className='flex flex-col items-center'>
                   <MpBentoCard
                     className={"w-[250px] p-2 border border-slate-100 "}
-                    title={member.memberOfParliament}
+                    title={member.name}
                     description={`Party ${member.party}, ${member.constituency} constituency`}
                     header={
                       <Image
                         src={member.imageURL}
-                        alt={member.memberOfParliament}
+                        alt={member.name}
                         width={100}
                         height={100}
                         className='w-full h-[200px] rounded-lg'
