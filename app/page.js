@@ -9,13 +9,8 @@ import MpsData from "/public/data/mps.json";
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
-  // console.log("MpsData ---------------------------------//");
-  // console.log(MpsData);
-
   useEffect(() => {
     if (!MpsData.length) return;
-    console.log("MpsData ---------------------------------//");
-    console.log(MpsData);
 
     // Find and log repeating MPs
     const repeatingMPs = findRepeatingMPs(MpsData);
@@ -24,6 +19,7 @@ export default function Home() {
     } else {
       console.log("No repeating Members of Parliament found.");
     }
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [MpsData]);
 
   // Function to find repeating instances
@@ -51,7 +47,6 @@ export default function Home() {
 
   return (
     <main className='flex relative  min-h-screen h-screen flex-col items-center justify-between p-24 bg-white'>
-      {/* <div className='flex flex-row gap-5 flex-wrap'></div> */}
       <HomeBentoGrid />
 
       <div className='flex flex-col my-48 gap-10 p-5 items-center'>
